@@ -1,0 +1,20 @@
+/* Quando for menor que 700px */
+
+@media screen and (max-width: 700px) {
+    header .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .botao {
+        margin-top: 5px;
+        width: 100%;
+    }
+}
+
+/* Quando for maior que 1000px */
+@media screen and (min-width: 1000px) {
+    .description {
+        width: 50%;
+    }
+}
